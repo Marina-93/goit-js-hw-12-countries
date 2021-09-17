@@ -34,7 +34,6 @@ input.addEventListener(
         return alert("Too much");
         }
             }).catch((err) => {
-                alert("Not found");
-  
+                alert("Not found")
       })
-    }, 5000))
+    }, 500))
